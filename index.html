@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,26 +9,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/759c5034d7.js" crossorigin="anonymous"></script>
     <title>Portfólio</title>
 </head>
+
 <body>
     <header class="firstHeader">
-        <span class="firstSpan" href="">&lt;Leonardo Ferreira&gt;</span>
+        <span id="inicio" class="firstSpan" href="">&lt;Leonardo Ferreira&gt;</span>
         <nav>
             <ul class="menu">
                 <li><a href="/">INICIO</a></li>
-                <li><a href="/">SOBRE MIM</a></li>
-                <li><a href="/">HABILIDADES</a></li>
+                <li><a href="#sobremim">SOBRE MIM</a></li>
+                <li><a href="#habilidades">HABILIDADES</a></li>
                 <li><a href="/">PROJETOS</a></li>
                 <li><a href="/">CONTATO</a></li>
             </ul>
         </nav>
     </header>
-    <div class="firstDiv">
-        <h3>Prazer! Me chamo</h3>
-        <h1>Leonardo Ferreira</h1>
-        <h3>Desenvolvedor Front-end</h3>
+    <div class="firstContainer">
+        <div>
+            <h3>Prazer! Me chamo</h3>
+            <h1>Leonardo Ferreira</h1>
+            <h3>Desenvolvedor Front-end</h3>
+            <button class="download" href="/">Download CV</button>
+        </div>
+        <div>
+            <img class="firstImg"
+                src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png">
+        </div>
     </div>
+    <section>
+        <div>
+            <h1 id="sobremim" class="sobremim">SOBRE MIM</h1>
+        </div>
+        <div class="divContainer">
+            <div class="container-sobremim-p">
+                <p>Meu nome é Leonardo e estou ingressando na área da programação. Sou sócio do DevClub, onde eu aprendi
+                    a ser um desenvolvedor front-end com objetivo final de ser um full stack.</p>
+                <br>
+                <p>Faço faculdade de Análise e Desenvolvimento de Sistemas na UNIP e continuo meus estudos, tendo em
+                    mente que estamos sempre em constante aprendizado. Estou cursando inglês basico na Udemy, onde busco
+                    fluência na linguagem.</p>
+                <br>
+                <p>Focado em tecnologia e inovação!</p>
+            </div>
+            <div>
+                <img class="secondImg" src="./assets/leo-sobremim.jpeg" alt="foto-de-leonardo-ferreira">
+            </div>
+        </div>
+        <section class="firstSection">
+            <h1 id="habilidades" class="habilidades">Habilidades</h1>
+            <div class="habilidade-container">
+                <div class="habilidade">
+                    <div class="icone">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="nome-da-habilidade">
+                        <h3>HTML 5</h3>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <div class="icone">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="nome-da-habilidade">
+                        <h3>CSS 3</h3>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <div class="icone">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="nome-da-habilidade">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <div class="icone">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="nome-da-habilidade">
+                        <h3>GIT</h3>
+                    </div>
+                </div>
+                <div class="habilidade">
+                    <div class="icone">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="nome-da-habilidade">
+                        <h3>GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
 </body>
 <script src="./scripts.js">
 

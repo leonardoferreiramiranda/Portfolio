@@ -30,8 +30,24 @@ a{
 }
 
 h1 {
-    color: black;
+    color: white;
+    font-size: 50px;
 }
+
+.sobremim {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.habilidades {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
+}
+
 
 :root {
     --color-preto-900: rgb(0, 0, 0);
@@ -79,10 +95,145 @@ h1 {
     }
   }
 
-  .firstDiv {
-    margin-top: 25%;
-    margin-left: 300px;
+  .firstContainer {
     text-align: center;
-    height: 150px;
-    width: 350px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    margin-left: 300px;
+    justify-content: space-between;
+    margin-top: 170px;
   }
+
+  .firstImg {
+    height: 500px;
+    width: 750px;
+  }
+
+  body {
+    background: linear-gradient(
+      45deg,
+      var(--color-preto-900),
+      var(--color-preto-800),
+      var(--color-cinza-700),
+      var(--color-cinza-600),
+      var(--color-cinza-500)
+    );
+    background-size: 1000% 1000%;
+    animation: colors 10s ease-in-out infinite;
+  }
+  
+  @keyframes colors {
+    0% {
+      background-position: 0% 25%;
+    }
+    25% {
+      background-position: 25% 50%;
+    }
+    50% {
+      background-position: 75% 50%;
+    }
+    75% {
+      background-position: 100% 75%;
+    }
+    100% {
+      background-position: 0% 25%;
+    }
+  }
+
+  .download {
+    background: #993399;
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: orange;
+    color: white;
+  }
+
+  .download:hover{
+    opacity: 0.5;
+  }
+
+  .container-sobremim {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .container-sobremim-p{
+    margin-top: 200px;
+    color: white;
+    height: 500px;
+    width: 1000px;
+    margin-left: 125px;
+  }
+
+  .secondImg {
+    height: 824px;
+    width: 568px;
+    border-radius: 500px;
+  }
+
+  .divContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .firstSection {
+    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+  }
+ 
+  
+  .habilidade-container {
+    padding-top: 150px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 10px; 
+  }
+
+  .habilidade {
+    transition: 0.3s all ease-in-out;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 350px;
+    height: 200px;
+  }
+
+  .habilidade:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #993399;
+    color: white;
+    border-color: orange;
+  }
+
+  .habilidade i{
+    font-size: 100px;
+    padding-bottom: 50px;
+    color: white;
+    
+  }
+
+  
+ 
