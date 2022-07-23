@@ -116,34 +116,7 @@ h2 {
   }
 
   body {
-    background: linear-gradient(
-      45deg,
-      var(--color-preto-900),
-      var(--color-preto-800),
-      var(--color-cinza-700),
-      var(--color-cinza-600),
-      var(--color-cinza-500)
-    );
-    background-size: 1000% 1000%;
-    animation: colors 10s ease-in-out infinite;
-  }
-  
-  @keyframes colors {
-    0% {
-      background-position: 0% 25%;
-    }
-    25% {
-      background-position: 25% 50%;
-    }
-    50% {
-      background-position: 75% 50%;
-    }
-    75% {
-      background-position: 100% 75%;
-    }
-    100% {
-      background-position: 0% 25%;
-    }
+    background: rgb(16, 16, 16);
   }
 
   .download {
@@ -298,3 +271,65 @@ h2 {
     border-color: orange;
 }
 
+.contact-title {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.contact-container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+      45deg,
+      var(--color-preto-900),
+      var(--color-preto-800),
+      var(--color-cinza-700),
+      var(--color-cinza-600),
+      var(--color-cinza-500)
+    );
+    background-size: 1000% 1000%;
+    animation: colors 10s ease-in-out infinite;
+  }
+  
+  @keyframes colors {
+    0% {
+      background-position: 0% 25%;
+    }
+    25% {
+      background-position: 25% 50%;
+    }
+    50% {
+      background-position: 75% 50%;
+    }
+    75% {
+      background-position: 100% 75%;
+    }
+    100% {
+      background-position: 0% 25%;
+    }
+  }
+
+
+.contact-container ul{
+  list-style: none;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container li{
+  padding: 0 1rem;
+}
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  background: #333333;
+  padding: 10px;
+}
