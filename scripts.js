@@ -9,3 +9,5 @@ function typeWriter(elemento) {
 }
 
 typeWriter(titulo)
+
+
