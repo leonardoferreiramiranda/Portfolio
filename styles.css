@@ -152,6 +152,8 @@ body {
   height: 824px;
   width: 568px;
   border-radius: 500px;
+  padding-right: 30px;
+  
 }
 
 .divContainer {
@@ -395,6 +397,9 @@ padding: 10px;
 .habilidades {
   margin-top: 150px;
 }
+.habilidade-container {
+  width: 100%;
+}
 .project {
   margin: auto;
 }
@@ -427,6 +432,7 @@ padding: 10px;
 }
 
 .secondImg {
+  margin-top: 10px;
   height: 424px;
   width: 268px;
   border-radius: 500px;
@@ -445,7 +451,12 @@ padding: 10px;
   font-size: 40px;
 }
 .habilidade-container {
-  width: 570px;
+  width: 100%;  
+}
+
+.habilidade {
+  text-align: center;
+  width: 105px;
 }
 
 }
